@@ -30,6 +30,7 @@ body {
 /* LAYOUT
 /*******************************************/
 main {
+     border-radius: 20px;
      border: 2px solid red;
      height: 585px;
      width: 400px;
@@ -41,7 +42,7 @@ section.inputField {
      background-color: rgb(32, 33, 36);
      color: white;
      height: 180px;
-     width: 94%;
+     width: 93%;
      margin: auto;
      margin-top: 10px;
      font-size: 30px;
@@ -78,15 +79,18 @@ button {
 }
 
 .normButton {
-     width: 23%;
+     width: 22%;
      background-color: rgb(32, 33, 36);
+     
 }
 
 button.uniqueButton {
-     background-color: rgb(58, 131, 133);
+     background-color: hsl(240, 82%, 45%);
      width: 30%;
+     
 }
 
 button.operator {
-     background-color: rgb(120, 230, 168);
+     background-color: hsl(0, 100%, 30%);
+     
 }
