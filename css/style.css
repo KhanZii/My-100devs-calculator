@@ -38,14 +38,16 @@ main {
 
 section.inputField {
      border-radius: 10px;
-     background-color: rgb(28, 31, 38);
+     background-color: rgb(32, 33, 36);
      color: white;
      height: 180px;
      width: 94%;
      margin: auto;
      margin-top: 10px;
-     text-align: center;
      font-size: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
 
 section.keyPad{
@@ -68,7 +70,7 @@ h1 {
 }
 
 button {
-     background-color: rgb(28, 31, 38);
+     background-color: rgb(32, 33, 36);
      font-size: 22px;
      border-radius: 10px;
      margin-bottom: 4px;
@@ -77,7 +79,7 @@ button {
 
 .normButton {
      width: 23%;
-     background-color: rgb(28, 31, 38);
+     background-color: rgb(32, 33, 36);
 }
 
 button.uniqueButton {
